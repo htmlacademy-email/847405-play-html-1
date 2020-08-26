@@ -35,6 +35,10 @@
     <![endif]-->
 
     <style type="text/css">
+          .desktop-wrap {
+            padding-left: 32px !important;
+            padding-right: 32px !important;
+        }
         @media only screen and (max-width:599px) {
 
             *[class="gmail-fix"] {
@@ -47,7 +51,7 @@
 
             .logo__container {
                 padding-top: 40px !important;
-                padding-bottom: 8px !important;
+                padding-bottom: 27px !important;
             }
 
             .logo__img {
@@ -87,12 +91,33 @@
             }
 
             .social,
-            .links {
+            .links,
+            .intro,
+            .image{
                 width: 100%;
+            }
+            .intro__wrapper {
+                width:  100% !important;
+                padding-left: 19px !important;
+                padding-right: 16px !important;
             }
 
             .social {
                 padding-bottom: 32px;
+            }
+
+            .mobile-wrap {
+                padding-left: 16px !important;
+                padding-right: 16px !important;
+            }
+            .info {
+                padding-left: 0 !important;
+                padding-right: 0 !important;
+                
+            }
+              .info__text {
+               padding-left: 16px !important;
+                padding-right: 16px !important;
             }
         }
 
@@ -104,6 +129,12 @@
 
         #outlook a {
             padding: 0;
+        }
+
+      
+
+        .info__wrapper {
+            border-top: 1px solid #E0E0E0;
         }
 
     </style>
@@ -119,7 +150,7 @@
 		  <![endif]-->
 
         <!--Основной контент -->
-        <table width="100%" cellspacing="0" cellpadding="0" border="0">
+        <table class="test" width="100%" cellspacing="0" cellpadding="0" border="0">
             <tr>
                 <td>
                     <table cellpadding="0" cellspacing="0" class="content" align="center" style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-spacing:0px;table-layout:fixed !important;width:600px">
@@ -131,7 +162,7 @@
                                             <!--Логотип-->
                                             <table width="100%" cellpadding="0" cellspacing="0" border="0">
                                                 <tr>
-                                                    <td>
+                                                    <td class="desktop-wrap mobile-wrap">
                                                         <table bgcolor="#ffffff" class="content-body logo" align="center" cellpadding="0" cellspacing="0" style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-spacing:0px;background-color:#FFFFFF;">
                                                             <tr>
                                                                 <td class="logo__container" align="center" style="Margin:0;padding-top:56px;padding-bottom:48px;">
@@ -146,11 +177,11 @@
                                             <!--Меню-->
                                             <table class="menu" width="100%" cellspacing="0" cellpadding="0" border="0">
                                                 <tr>
-                                                    <td class="menu__container" align="center" style="padding:0;Margin:0; padding-bottom:25px;">
+                                                    <td class="desktop-wrap mobile-wrap" align="center" style="padding:0;Margin:0; padding-bottom:25px;">
                                                         <!--[if mso]><table style="width:600px" cellpadding="0" cellspacing="0"><tr><td style="width:120px" valign="top"><![endif]-->
                                                         <table cellpadding="0" cellspacing="0" class="content-left menu-item" align="left" style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-spacing:0px;float:left;">
                                                             <tr>
-                                                                <td class="menu-item__container" align="center" style="padding:0;Margin:0;padding-left:28px; padding-right:28px;width:64px;">
+                                                                <td class="menu-item__container" align="center" style="padding:0;Margin:0;padding-right:28px;width:64px;">
                                                                     <table width="100%" cellspacing="0" cellpadding="0" border="0">
                                                                         <tr>
                                                                             <td>
@@ -195,7 +226,7 @@
                                                         <!--[if mso]></td><td style="width:0px;"></td><td style="width:184px;" valign="top"><![endif]-->
                                                         <table cellpadding="0" cellspacing="0" class="content-right menu-item" align="right" style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-spacing:0px;float:right;">
                                                             <tr>
-                                                                <td class="menu-item__container" align="center" style="padding:0;Margin:0; padding-left:18px; padding-right:18px;width:128px;">
+                                                                <td class="menu-item__container" align="center" style="padding:0;Margin:0;width:128px;">
                                                                     <table width="100%" cellspacing="0" cellpadding="0" border="0">
                                                                         <tr>
                                                                             <td>
@@ -218,9 +249,9 @@
                                                         <!--Блок текста-->
                                                         <!--[if mso]><table style="width:600px" cellpadding="0"
                     cellspacing="0"><tr><td style="width:339px" valign="top"><![endif]-->
-                                                        <table cellpadding="0" cellspacing="0" class="content-left" align="left" style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-spacing:0px;float:left;">
+                                                        <table class="intro" cellpadding="0" cellspacing="0" class="content-left" align="left" style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-spacing:0px;float:left;">
                                                             <tr>
-                                                                <td align="left" style="padding:0;Margin:0;width:339px;padding-left: 32px;">
+                                                                <td class="intro__wrapper" align="left" style="padding:0;Margin:0;width:339px;padding-left: 32px;">
 
                                                                     <table width="100%" cellspacing="0" cellpadding="0" border="0">
                                                                         <tr>
@@ -245,7 +276,7 @@
 
                                                         <!--Картинка разработчика-->
                                                         <!--[if mso]></td><td style="width:0px;"></td><td style="width:175px;" valign="top"><![endif]-->
-                                                        <table cellpadding="0" cellspacing="0" class="content-right" align="right" style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-spacing:0px;float:right;">
+                                                        <table class="image" cellpadding="0" cellspacing="0" align="right" style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-spacing:0px;float:right;">
                                                             <tr>
                                                                 <td align="left" style="padding:0;Margin:0;width:175px;">
                                                                     <table cellpadding="0" cellspacing="0" width="100%" style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-spacing:0px;">
@@ -268,7 +299,7 @@
                                             <!--О курсе-->
                                             <table width="100%" cellpadding="0" cellspacing="0" border="0">
                                                 <tr>
-                                                    <td>
+                                                    <td class="desktop-wrap mobile-wrap">
                                                         <table bgcolor="#ffffff" class="content-body" align="center" cellpadding="0" cellspacing="0" style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-spacing:0px;padding-bottom: 48px; background-color: #ffffff;">
                                                             <tr>
                                                                 <td align="center" style="padding:0;Margin:0; padding-top: 48px; padding-bottom: 24px;">
@@ -303,7 +334,7 @@
                                             <!--Ведущие курса-->
                                             <table width="100%" cellpadding="0" cellspacing="0" border="0">
                                                 <tr>
-                                                    <td align="left" style="padding:0;Margin:0;padding-bottom:48px;">
+                                                    <td class="desktop-wrap mobile-wrap" align="left" style="padding:0;Margin:0;padding-bottom:48px;">
 
                                                         <!--Заголовок-->
                                                         <table bgcolor="#ffffff" class="content-body" align="center" cellpadding="0" cellspacing="0" style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-spacing:0px;background-color:#FFFFFF;">
@@ -323,14 +354,14 @@
                                                         <!--Список ведущих-->
                                                         <table class="host" width="100%" cellpadding="0" cellspacing="0" border="0">
                                                             <tr>
-                                                                <td class="host__container" align="left" style="padding:0;Margin:0;padding-left:30px;padding-right:30px;padding-bottom:25px;">
+                                                                <td class="host__container" align="left" style="padding:0;Margin:0;padding-bottom:25px;">
 
                                                                     <!--Обертка для ведущего. Громов-->
-                                                                    <!--[if mso]><table style="width:560px" cellpadding="0" cellspacing="0"><tr><td style="width:180px" valign="top"><![endif]-->
+                                                                    <!--[if mso]><table style="width:560px" cellpadding="0" cellspacing="0"><tr><td style="width:178px" valign="top"><![endif]-->
 
                                                                     <table class="host__item" cellpadding="0" cellspacing="0" class="content-left" align="left" style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-spacing:0px;float:left;">
                                                                         <tr>
-                                                                            <td align="center" style="padding:0;Margin:0;width:180px;">
+                                                                            <td align="center" style="padding:0;Margin:0;width:178px;">
 
                                                                                 <table width="100%" cellpadding="0" cellspacing="0" border="0">
                                                                                     <tr>
@@ -368,11 +399,11 @@
                                                                     </table>
 
                                                                     <!--Обертка для ведущего. Раменский-->
-                                                                    <!--[if mso]></td><td style="width:180px;" valign="top"><![endif]-->
+                                                                    <!--[if mso]></td><td style="width:178px;" valign="top"><![endif]-->
 
                                                                     <table class="host__item" cellpadding="0" cellspacing="0" class="content-left" align="left" style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-spacing:0px;float:left;">
                                                                         <tr>
-                                                                            <td align="center" style="padding:0;Margin:0;width:180px;">
+                                                                            <td align="center" style="padding:0;Margin:0;width:178px;">
                                                                                 <table width="100%" cellpadding="0" cellspacing="0" border="0">
                                                                                     <tr>
                                                                                         <td>
@@ -409,10 +440,10 @@
                                                                     </table>
 
                                                                     <!--Обертка для ведущего. Чубаров-->
-                                                                    <!--[if mso]></td><td style="width:180px;" valign="top"><![endif]-->
+                                                                    <!--[if mso]></td><td style="width:178px;" valign="top"><![endif]-->
                                                                     <table class="host__item" cellpadding="0" cellspacing="0" class="content-right" align="right" style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-spacing:0px;float:right;">
                                                                         <tr>
-                                                                            <td align="center" style="padding:0;Margin:0;width:180px;">
+                                                                            <td align="center" style="padding:0;Margin:0;width:178px;">
 
                                                                                 <table width="100%" cellpadding="0" cellspacing="0" border="0">
                                                                                     <tr>
@@ -459,7 +490,7 @@
                                             <!--Текст по другим курсам-->
                                             <table bgcolor="#ffffff" class="content-body" align="center" cellpadding="0" cellspacing="0" style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-spacing:0px;background-color:#FFFFFF;">
                                                 <tr>
-                                                    <td>
+                                                    <td class="desktop-wrap mobile-wrap">
                                                         <table width="100%" cellpadding="0" cellspacing="0" border="0">
                                                             <tr>
                                                                 <td style="padding-bottom: 48px;">
@@ -477,7 +508,7 @@
                                                     <td>
                                                         <table bgcolor="#ffffff" class="content-body" align="center" cellpadding="0" cellspacing="0" style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-spacing:0px;background-color:#FFFFFF;">
                                                             <tr>
-                                                                <td>
+                                                                <td class="desktop-wrap mobile-wrap">
                                                                     <table width="100%" cellspacing="0" cellpadding="0" border="0">
                                                                         <tr>
                                                                             <td align="center" style="Margin:0;padding-bottom:24px;">
@@ -595,7 +626,7 @@
                                             <!--Кнопка всех мероприятий-->
                                             <table width="100%" cellspacing="0" cellpadding="0" border="0">
                                                 <tr>
-                                                    <td>
+                                                    <td class="desktop-wrap mobile-wrap">
                                                         <table bgcolor="#ffffff" class="content-body" align="center" cellpadding="0" cellspacing="0" style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-spacing:0px; ">
                                                             <tr>
                                                                 <td align="center" style="padding-bottom: 16px;">
@@ -632,12 +663,12 @@
                                                                     <!--Обертка для контактов и меню-->
                                                                     <table width="100%" cellspacing="0" cellpadding="0" border="0">
                                                                         <tr>
-                                                                            <td style="padding-bottom: 32px;">
+                                                                            <td class="desktop-wrap mobile-wrap">
                                                                                 <!--Контакты-->
-                                                                                <!--[if mso]><table style="width:560px;" cellpadding="0" cellspacing="0"><tr><td style="width:284px;" valign="top"><![endif]-->
+                                                                                <!--[if mso]><table style="width:560px;" cellpadding="0" cellspacing="0"><tr><td style="width:252px;" valign="top"><![endif]-->
                                                                                 <table class="social" cellpadding="0" cellspacing="0" align="left" class="content-left" style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-spacing:0px;float:left;">
                                                                                     <tr>
-                                                                                        <td align="center" valign="top" style="padding:0;Margin:0;width:284px;">
+                                                                                        <td align="center" valign="top" style="padding:0;Margin:0;width:252px;">
                                                                                             <table cellpadding="0" cellspacing="0" width="100%" style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-spacing:0px;">
                                                                                                 <tr>
                                                                                                     <td align="left" style="padding:0;Margin:0;padding-bottom: 16px;">
@@ -713,10 +744,10 @@
                                                                                 </table>
 
                                                                                 <!--Меню-->
-                                                                                <!--[if mso]><table style="width:560px;" cellpadding="0" cellspacing="0"><tr><td style="width:284px;" valign="top"><![endif]-->
+                                                                                <!--[if mso]><table style="width:560px;" cellpadding="0" cellspacing="0"><tr><td style="width:252px;" valign="top"><![endif]-->
                                                                                 <table class="links" cellpadding="0" cellspacing="0" align="left" class="content-left" style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-spacing:0px;float:right;">
                                                                                     <tr>
-                                                                                        <td align="center" valign="top" style="padding:0;Margin:0;width:284px;">
+                                                                                        <td align="center" valign="top" style="padding:0;Margin:0;width:252px;">
                                                                                             <table width="100%" cellspacing="0" cellpadding="0" border="0">
                                                                                                 <tr>
                                                                                                     <td style="Margin:0;padding: 0;padding-bottom: 16px;">
@@ -775,18 +806,17 @@
                                                                             </td>
                                                                         </tr>
                                                                     </table>
-                                                                    <hr style="Margin: 0;padding: 0;border: 1px solid #e0e0e0" />
                                                                     <table width="100%" cellspacing="0" cellpadding="0" border="0">
                                                                         <tr>
-                                                                            <td align="left" style="Margin:0;padding-top:56px;padding-bottom:32px;">
-                                                                                <table align="center" cellpadding="0" cellspacing="0" style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-spacing:0px;">
+                                                                            <td class="info" align="left" style="Margin:0;padding-top:37px;padding-bottom:32px;padding-left: 21px; padding-right: 16px;">
+                                                                                <table class="info__wrapper" align="center" cellpadding="0" cellspacing="0" style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-spacing:0px;">
                                                                                     <tr>
-                                                                                        <td style="padding-bottom: 16px;">
+                                                                                        <td class="info__text" style="padding-top: 32px; padding-bottom: 16px;padding-left: 12px; padding-right: 12px;">
                                                                                             <p style="Margin:0; padding: 0; -webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:'trebuchet ms', tahoma, sans-serif;font-size: 11px;line-height: 13px;color: #828282">Вы&nbsp;получили это письмо, так как являетесь пользователем портала HTMLPlay. Рассылка производится в&nbsp;соответствии с&nbsp;пользовательским соглашением. Если вы&nbsp;не&nbsp;хотите получать рассылку, вы&nbsp;можете <a href="#" target="_blank" title="Отписка от рассылок" style="mso-style-priority:100 !important;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:'trebuchet ms', tahoma, sans-serif;font-size:11px;color:#828282;font-weight:normal;font-style:normal;line-height:13px;width:auto;text-align:center;">отписаться</a> или <a href="#" target="_blank" title="Настройка параметров уведомлений" style="mso-style-priority:100 !important;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:'trebuchet ms', tahoma, sans-serif;font-size:11px;color:#828282;font-weight:normal;font-style:normal;line-height:13px;width:auto;text-align:center;">настроить параметры</a>.</p>
                                                                                         </td>
                                                                                     </tr>
                                                                                     <tr>
-                                                                                        <td>
+                                                                                        <td class="info__text" style="padding-left: 12px; padding-right: 12px;">
                                                                                             <p style="Margin:0; padding: 0; -webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:'trebuchet ms', tahoma, sans-serif;font-size: 11px;line-height: 13px;color: #828282">
                                                                                                 Если письмо отображается некорректно или вы&nbsp;хотите им&nbsp;поделиться, <a href="#" target="_blank" title="Веб-версия письма" style="mso-style-priority:100 !important;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:'trebuchet ms', tahoma, sans-serif;font-size:11px;color:#828282;font-weight:normal;font-style:normal;line-height:13px;width:auto;text-align:center;">жмите сюда</a>.
                                                                                             </p>
