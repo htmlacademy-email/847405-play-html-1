@@ -34,12 +34,25 @@
             .content-wrapper {
                 width: 100% !important;
             }
+             .adaptive-img {
+                width: 100% !important;
+                height: auto !important
+            }
 
             .header {
                 padding-top: 24px !important;
                 padding-bottom: 24px !important;
                 padding-left: 0 !important;
                 padding-right: 0 !important;
+            }
+            .stock {
+                width: 100%;
+            }
+            .stock__container {
+                border-top-right-radius: 15px;
+            }
+            .stock__row {
+                width:  auto;
             }
 
             .social {
@@ -79,8 +92,14 @@
                 padding-bottom: 40px;
             }
             
+            .feedback__image {
+                width: 100% !important;
+                padding-bottom: 28px;
+            }
+                        
             .contacts,
-            .links {
+            .links,
+            .image{
                 width: 100%;
             }
 
@@ -202,13 +221,13 @@
                                                                             <td>
                                                                                 <!--[if mso]><table style="width:284px" cellpadding="0"
                         cellspacing="0"><tr><td style="width:284px" valign="top"><![endif]-->
-                                                                                <table cellpadding="0" cellspacing="0" align="left" style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-spacing:0px;float:left;">
+                                                                                <table class="stock" cellpadding="0" cellspacing="0" align="left" style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-spacing:0px;float:left;">
                                                                                     <tbody>
                                                                                         <tr>
                                                                                             <td align="left" style="padding:0;Margin:0; width:284px;">
 
                                                                                                 <!--Квадрат с датой-->
-                                                                                                <table cellpadding="0" cellspacing="0" align="left" style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-spacing:0px; width: 100%; background-color: #FF4B33; border-top-left-radius: 15px">
+                                                                                                <table class="stock__container" cellpadding="0" cellspacing="0" align="left" style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-spacing:0px; width: 100%; background-color: #FF4B33; border-top-left-radius: 15px">
                                                                                                     <!--[if gte mso 9]>
                                           <v:background xmlns:v="urn:schemas-microsoft-com:vml" fill="t">
                                             <v:fill type="tile" color="#FF4B33;"></v:fill>
@@ -235,13 +254,13 @@
                                                                                                                     </tr>
                                                                                                                 </tbody>
                                                                                                             </table>
-                                                                                                            <table cellpadding="0" cellspacing="0" width="100%" style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-spacing:0px;border-radius: 5px; color: #ffffff">
+                                                                                                            <table class="stock__row" cellpadding="0" cellspacing="0" width="100%" style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-spacing:0px;border-radius: 5px; color: #ffffff">
                                                                                                                 <tbody>
                                                                                                                     <tr>
                                                                                                                         <td align="left">
                                                                                                                             <span style="font-family:tahoma, sans-serif;font-size: 56px;line-height: 68px;font-weight: bold">20%</span>
                                                                                                                         </td>
-                                                                                                                        <td align="left">
+                                                                                                                        <td align="left" style="padding-left: 11px;">
                                                                                                                             <span style="font-size: 18px;line-height: 21px;">до&nbsp;конца<br />июня</span>
                                                                                                                         </td>
                                                                                                                     </tr>
@@ -259,7 +278,7 @@
                                                                                 <!--Изображение вечеринки-->
 
                                                                                 <!--[if mso]></td><td style="width:0px"></td><td style="width:284px" valign="top"><![endif]-->
-                                                                                <table cellpadding="0" cellspacing="0" align="right" style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-spacing:0px;float:right;">
+                                                                                <table class="image" cellpadding="0" cellspacing="0" align="right" style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-spacing:0px;float:right;">
                                                                                     <tbody>
                                                                                         <tr>
                                                                                             <td align="left" style="padding:0;Margin:0;width:284px;">
@@ -267,7 +286,7 @@
                                                                                                     <tbody>
                                                                                                         <tr>
                                                                                                             <td align="center" style="padding:0;Margin:0;">
-                                                                                                                <img src="https://raw.githubusercontent.com/esukhalintsev/847405-play-html-1/module2-task2/3-promo/img/img-ppl.png" alt="Вечеринка разработчиков" width="284" height="271" border="0" />
+                                                                                                                <img class="adaptive-img" src="https://raw.githubusercontent.com/esukhalintsev/847405-play-html-1/module2-task2/3-promo/img/img-ppl.png" alt="Вечеринка разработчиков" width="284" height="271" border="0" />
                                                                                                             </td>
                                                                                                         </tr>
                                                                                                     </tbody>
@@ -335,13 +354,13 @@
                                                                                                                                                 </tr>
                                                                                                                                                 <tr>
                                                                                                                                                     <td align="center" style="padding:0;Margin:0;padding-bottom:15px;">
-                                                                                                                                                        <p style="Margin:0; padding: 0; -webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:'trebuchet ms', tahoma, sans-serif;font-weight: bold; font-size: 18px;line-height: 21px;"><b>Html+css начальный</b></p>
+                                                                                                                                                        <p style="Margin:0; padding: 0; -webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:'trebuchet ms', tahoma, sans-serif;font-weight: bold; font-size: 16px;line-height: 19px;"><b>Html+css начальный</b></p>
                                                                                                                                                     </td>
                                                                                                                                                 </tr>
                                                                                                                                                 <tr>
                                                                                                                                                     <td align="center" style="padding:0;Margin:0;">
                                                                                                                                                         <span style="text-decoration: line-through;font-size: 18px;line-height: 21px;color: #828282"><s>15 000руб.</s></span>&nbsp;&nbsp;&nbsp;
-                                                                                                                                                        <span style="font-size: 18px;line-height: 21px;"><b><span style="color: #ff4b33">12 000</span></b> руб.</span>
+                                                                                                                                                        <span style="font-size: 16px;line-height: 19px;"><b><span style="color: #ff4b33">12 000</span></b> руб.</span>
                                                                                                                                                     </td>
                                                                                                                                                 </tr>
                                                                                                                                                 <tr>
@@ -372,13 +391,13 @@
                                                                                                                                                 </tr>
                                                                                                                                                 <tr>
                                                                                                                                                     <td align="center" style="padding:0;Margin:0;padding-bottom:15px;">
-                                                                                                                                                        <p style="Margin:0; padding: 0; -webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:'trebuchet ms', tahoma, sans-serif;font-weight: bold; font-size: 18px;line-height: 21px;"><b>Html+css продвинутый</b></p>
+                                                                                                                                                        <p style="Margin:0; padding: 0; -webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:'trebuchet ms', tahoma, sans-serif;font-weight: bold; font-size: 16px;line-height: 19px;"><b>Html+css продвинутый</b></p>
                                                                                                                                                     </td>
                                                                                                                                                 </tr>
                                                                                                                                                 <tr>
                                                                                                                                                     <td align="center" style="padding:0;Margin:0;">
                                                                                                                                                         <span style="text-decoration: line-through;font-size: 18px;line-height: 21px;color: #828282"><s>20 000руб.</s></span>&nbsp;&nbsp;&nbsp;
-                                                                                                                                                        <span style="font-size: 18px;line-height: 21px;"><b><span style="color: #ff4b33">16 000</span></b> руб.</span>
+                                                                                                                                                        <span style="font-size: 16px;line-height: 19px;"><b><span style="color: #ff4b33">16 000</span></b> руб.</span>
                                                                                                                                                     </td>
                                                                                                                                                 </tr>
                                                                                                                                                 <tr>
@@ -413,13 +432,13 @@
                                                                                                                                                 </tr>
                                                                                                                                                 <tr>
                                                                                                                                                     <td align="center" style="padding:0;Margin:0;padding-bottom:15px;">
-                                                                                                                                                        <p style="Margin:0; padding: 0; -webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:'trebuchet ms', tahoma, sans-serif;"><b>Photoshop для верстальщика</b></p>
+                                                                                                                                                        <p style="Margin:0; padding: 0; -webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:'trebuchet ms', tahoma, sans-serif; font-size: 16px;line-height: 19px;"><b>Photoshop для верстальщика</b></p>
                                                                                                                                                     </td>
                                                                                                                                                 </tr>
                                                                                                                                                 <tr>
                                                                                                                                                     <td align="center" style="padding:0;Margin:0;">
                                                                                                                                                         <span style="text-decoration: line-through;font-size: 18px;line-height: 21px;color: #828282"><s>15 000руб.</s></span>&nbsp;&nbsp;&nbsp;
-                                                                                                                                                        <span style="font-size: 18px;line-height: 21px;"><b><span style="color: #ff4b33">12 000</span></b> руб.</span>
+                                                                                                                                                        <span style="font-size: 16px;line-height: 19px;"><b><span style="color: #ff4b33">12 000</span></b> руб.</span>
                                                                                                                                                     </td>
                                                                                                                                                 </tr>
                                                                                                                                                 <tr>
@@ -447,13 +466,13 @@
                                                                                                                                                 </tr>
                                                                                                                                                 <tr>
                                                                                                                                                     <td align="center" style="padding:0;Margin:0;padding-bottom:15px;">
-                                                                                                                                                        <p style="Margin:0; padding: 0; -webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:'trebuchet ms', tahoma, sans-serif;"><b>JS&nbsp;начальный</b></p>
+                                                                                                                                                        <p style="Margin:0; padding: 0; -webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:'trebuchet ms', tahoma, sans-serif;font-size: 16px;line-height: 19px;"><b>JS&nbsp;начальный</b></p>
                                                                                                                                                     </td>
                                                                                                                                                 </tr>
                                                                                                                                                 <tr>
                                                                                                                                                     <td align="center" style="padding:0;Margin:0;">
                                                                                                                                                         <span style="text-decoration: line-through;font-size: 18px;line-height: 21px;color: #828282"><s>20 000руб.</s></span>&nbsp;&nbsp;&nbsp;
-                                                                                                                                                        <span style="font-size: 18px;line-height: 21px;"><b><span style="color: #ff4b33">16 000</span></b> руб.</span>
+                                                                                                                                                        <span style="font-size: 16px;line-height: 19px;"><b><span style="color: #ff4b33">16 000</span></b> руб.</span>
                                                                                                                                                     </td>
                                                                                                                                                 </tr>
                                                                                                                                                 <tr>
@@ -495,7 +514,7 @@
                                 </table>
 
                                 <!--Отзыв-->
-                                <table width="100%" cellspacing="0" cellpadding="0" border="0">
+                                <table class="feedback" width="100%" cellspacing="0" cellpadding="0" border="0">
                                     <tr>
                                         <td style="padding-bottom: 30px;">
 
@@ -517,15 +536,15 @@
                                                             </tr>
                                                         </table>
 
-                                                        <table width="100%" cellspacing="0" cellpadding="0" border="0">
+                                                        <table c width="100%" cellspacing="0" cellpadding="0" border="0">
                                                             <tr>
                                                                 <td style="padding-bottom: 30px;">
                                                                     <!--[if mso]><table style="" cellpadding="0" cellspacing="0"><tr><td style="width:110px;" valign="top"><![endif]-->
-                                                                    <table cellpadding="0" cellspacing="0" class="content-left" align="left" style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-spacing:0px;float:left;">
+                                                                    <table class="feedback__image" cellpadding="0" cellspacing="0" class="content-left" align="left" style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-spacing:0px;float:left;">
                                                                         <tr>
                                                                             <td align="left" style="padding:0;Margin:0;width:120px;">
                                                                                 <!--Фото и имя-->
-                                                                                <table cellpadding="0" cellspacing="0" width="100%" style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-spacing:0px;">
+                                                                                <table class="feedback__avatar" cellpadding="0" cellspacing="0" width="100%" style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-spacing:0px;">
                                                                                     <tr>
                                                                                         <td align="center" style="padding:0;Margin:0;padding-left: 12px;">
                                                                                             <img src="https://raw.githubusercontent.com/esukhalintsev/847405-play-html-1/module2-task2/3-promo/img/img-anna.png" alt="" width="107" height="107" border="0" style="border: 1px solid #13D6C3; border-radius: 50%; padding: 6px;" />
@@ -623,7 +642,7 @@
                                                                                                 </tr>
                                                                                                 <tr>
                                                                                                     <td style="Margin: 0; padding: 0; padding-bottom: 31px;">
-                                                                                                        <p style="Margin:0; padding: 0; -webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-weight: bold;text-align: center;font-family:'trebuchet ms', tahoma, sans-serif;font-size: 13px;">Специалист по&nbsp;кибербезопасности</p>
+                                                                                                        <p style="Margin:0; padding: 0; -webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-weight: bold;text-align: center;font-family:'trebuchet ms', tahoma, sans-serif;font-size: 13px;line-height: 15px">Специалист по&nbsp;кибербезопасности</p>
                                                                                                     </td>
                                                                                                 </tr>
                                                                                                 <tr>
@@ -649,8 +668,8 @@
                                                                                                     </td>
                                                                                                 </tr>
                                                                                                 <tr>
-                                                                                                    <td style="Margin: 0; padding: 0; padding-bottom: 31px;">
-                                                                                                        <p style="Margin:0; padding: 0; -webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:'trebuchet ms', tahoma, sans-serif;font-weight: bold;text-align: center;font-family:'trebuchet ms', tahoma, sans-serif;font-size: 13px;">Профессия Data Scientist: анализ данных</p>
+                                                                                                    <td style="Margin: 0; padding: 0; padding-bottom: 16px;">
+                                                                                                        <p style="Margin:0; padding: 0; -webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:'trebuchet ms', tahoma, sans-serif;font-weight: bold;text-align: center;font-family:'trebuchet ms', tahoma, sans-serif;font-size: 13px;line-height: 15px;">Профессия Data <br> Scientist: анализ <br> данных</p>
                                                                                                     </td>
                                                                                                 </tr>
                                                                                                 <tr>
@@ -675,8 +694,8 @@
                                                                                                     </td>
                                                                                                 </tr>
                                                                                                 <tr>
-                                                                                                    <td style="Margin: 0; padding: 0; padding-bottom: 31px;">
-                                                                                                        <p style="Margin:0; padding: 0; -webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:'trebuchet ms', tahoma, sans-serif;font-weight: bold;text-align: center;font-family:'trebuchet ms', tahoma, sans-serif;font-size: 13px;">Профессия Разработчик игр на&nbsp;Unity с&nbsp;нуля до&nbsp;Middle</p>
+                                                                                                    <td style="Margin: 0; padding: 0; padding-bottom: 16px;">
+                                                                                                        <p style="Margin:0; padding: 0; -webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:'trebuchet ms', tahoma, sans-serif;font-weight: bold;text-align: center;font-family:'trebuchet ms', tahoma, sans-serif;font-size: 13px;line-height: 15px;">Профессия <br> Разработчик игр <br> на Unity  с&nbsp;нуля до&nbsp;Middle</p>
                                                                                                     </td>
                                                                                                 </tr>
                                                                                                 <tr>
@@ -703,7 +722,7 @@
                                                                     <table bgcolor="#ffffff" class="content-body" align="center" cellpadding="0" cellspacing="0" style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-spacing:0px; ">
                                                                         <tr>
                                                                             <td align="center" style="padding:0;Margin:0;">
-                                                                                <img src="https://raw.githubusercontent.com/esukhalintsev/847405-play-html-1/module2-task2/3-promo/img/img-std.png" alt="Процесс обучения" width="300" height="300" border="0" />
+                                                                                <img class="adaptive-image" src="https://raw.githubusercontent.com/esukhalintsev/847405-play-html-1/module2-task2/3-promo/img/img-std.png" alt="Процесс обучения" width="300" height="300" border="0" />
                                                                             </td>
                                                                         </tr>
                                                                     </table>
