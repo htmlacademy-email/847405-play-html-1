@@ -49,6 +49,10 @@
             .content-wrapper {
                 width: 100% !important;
             }
+             .adaptive-img {
+                width: 100% !important;
+                height: auto !important
+            }
 
             .logo__container {
                 padding-top: 40px !important;
@@ -76,6 +80,11 @@
                 padding-bottom: 5px !important;
                 padding-left: 7px !important;
                 padding-right: 7px !important;
+            }
+            
+            .menu__link{
+                font-size: 18px !important;
+                line-height: 21px !important;
             }
 
             .content .menu-item {
@@ -112,10 +121,14 @@
                 padding-left: 16px !important;
                 padding-right: 16px !important;
             }
+            .courses-info {
+                display: none;
+            }
 
             .info {
                 padding-left: 0 !important;
                 padding-right: 0 !important;
+                padding-bottom: 29px;
 
             }
 
@@ -131,7 +144,10 @@
         }
 
         .intro {
-            width: 339px;
+            width: 393px;
+        }
+        .info {
+         padding-bottom: 32px;   
         }
 
 
@@ -191,7 +207,7 @@
                                                                     <table width="100%" cellspacing="0" cellpadding="0" border="0">
                                                                         <tr>
                                                                             <td>
-                                                                                <a href="#" target="_blank" style="-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:'roboto', tahoma, sans-serif;font-weight: bold;font-size:18px;line-height: 21px;text-decoration:none;color:#ff4b33;text-transform: uppercase"><b>Курсы</b></a>
+                                                                                <a class="menu__link" href="#" target="_blank" style="-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:'roboto', tahoma, sans-serif;font-weight: bold;font-size:16px;line-height: 19px;text-decoration:none;color:#ff4b33;text-transform: uppercase"><b>Курсы</b></a>
                                                                             </td>
                                                                         </tr>
                                                                     </table>
@@ -206,7 +222,7 @@
                                                                     <table width="100%" cellspacing="0" cellpadding="0" border="0">
                                                                         <tr>
                                                                             <td>
-                                                                                <a href="#" target="_blank" style="-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:'roboto', tahoma, sans-serif;font-weight: bold;font-size:18px;line-height: 21px;text-decoration:none;color:#0B379B;text-transform: uppercase"><b>Вебинары</b></a>
+                                                                                <a class="menu__link" href="#" target="_blank" style="-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:'roboto', tahoma, sans-serif;font-weight: bold;font-size:16px;line-height: 19px;text-decoration:none;color:#0B379B;text-transform: uppercase"><b>Вебинары</b></a>
                                                                             </td>
                                                                         </tr>
                                                                     </table>
@@ -221,7 +237,7 @@
                                                                     <table width="100%" cellspacing="0" cellpadding="0" border="0">
                                                                         <tr>
                                                                             <td>
-                                                                                <a href="#" target="_blank" style="-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:'roboto', tahoma, sans-serif;font-weight: bold;font-size:18px;line-height: 21px;text-decoration:none;color:#02BAD3;text-transform: uppercase"><b>О&nbsp;школе</b></a>
+                                                                                <a class="menu__link" href="#" target="_blank" style="-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:'roboto', tahoma, sans-serif;font-weight: bold;font-size:16px;line-height: 19px;text-decoration:none;color:#02BAD3;text-transform: uppercase"><b>О&nbsp;школе</b></a>
                                                                             </td>
                                                                         </tr>
                                                                     </table>
@@ -236,7 +252,7 @@
                                                                     <table width="100%" cellspacing="0" cellpadding="0" border="0">
                                                                         <tr>
                                                                             <td>
-                                                                                <a href="#" target="_blank" style="-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:'roboto', tahoma, sans-serif;font-weight: bold;font-size:18px;line-height: 21px;text-decoration:none;color:#FFC81A;text-transform: uppercase"><b>Распродажа</b></a>
+                                                                                <a class="menu__link" href="#" target="_blank" style="-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:'roboto', tahoma, sans-serif;font-weight: bold;font-size:16px;line-height: 19px;text-decoration:none;color:#FFC81A;text-transform: uppercase"><b>Распродажа</b></a>
                                                                             </td>
                                                                         </tr>
                                                                     </table>
@@ -262,7 +278,7 @@
                                                                     <table width="100%" cellspacing="0" cellpadding="0" border="0">
                                                                         <tr>
                                                                             <td style="padding-top: 32px;padding-bottom: 24px;">
-                                                                                <p style="Margin:0; padding: 0; -webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:'trebuchet ms', tahoma, sans-serif;font-weight: bold;font-size: 18px;line-height: 21px;color: #13d6c3"><b>Здравствуйте, {{fullname}}</b></p>
+                                                                                <p style="Margin:0; padding: 0; -webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:'trebuchet ms', tahoma, sans-serif;font-weight: bold;font-size: 16px;line-height: 19px;color: #13d6c3"><b>Здравствуйте, {{fullname}}</b></p>
                                                                             </td>
                                                                         </tr>
                                                                         <tr>
@@ -289,7 +305,7 @@
                                                                         <tr>
                                                                             <td align="center" style="padding:0;Margin:0;padding-right: 32px">
                                                                                 <a href="#" target="_blank">
-                                                                                    <img src="https://raw.githubusercontent.com/esukhalintsev/847405-play-html-1/module2-task2/2-welcome/img/img-pers.png" alt="Разработчик за компьютером" width="175" height="269" border="0" />
+                                                                                    <img class="adaptive-img" src="https://raw.githubusercontent.com/esukhalintsev/847405-play-html-1/module2-task2/2-welcome/img/img-pers.png" alt="Разработчик за компьютером" width="175" height="269" border="0" />
                                                                                 </a>
                                                                             </td>
                                                                         </tr>
@@ -340,7 +356,7 @@
                                             <!--Ведущие курса-->
                                             <table width="100%" cellpadding="0" cellspacing="0" border="0">
                                                 <tr>
-                                                    <td class="desktop-wrap mobile-wrap" align="left" style="padding:0;Margin:0;padding-bottom:48px;">
+                                                    <td class="desktop-wrap mobile-wrap" align="left" style="padding:0;Margin:0;padding-bottom:24px;">
 
                                                         <!--Заголовок-->
                                                         <table bgcolor="#ffffff" class="content-body" align="center" cellpadding="0" cellspacing="0" style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-spacing:0px;background-color:#FFFFFF;">
@@ -494,7 +510,7 @@
                                             </table>
 
                                             <!--Текст по другим курсам-->
-                                            <table bgcolor="#ffffff" class="content-body" align="center" cellpadding="0" cellspacing="0" style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-spacing:0px;background-color:#FFFFFF;">
+                                            <table class="courses-info" bgcolor="#ffffff" class="content-body" align="center" cellpadding="0" cellspacing="0" style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-spacing:0px;background-color:#FFFFFF;">
                                                 <tr>
                                                     <td class="desktop-wrap mobile-wrap">
                                                         <table width="100%" cellpadding="0" cellspacing="0" border="0">
@@ -540,7 +556,7 @@
                                                                                                 </tr>
                                                                                                 <tr>
                                                                                                     <td style="padding-bottom: 16px;">
-                                                                                                        <p style="Margin:0; padding: 0; -webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:'trebuchet ms', tahoma, sans-serif;font-weight: bold;font-size: 18px;line-height: 21px;">20&nbsp;июня, 17:00</p>
+                                                                                                        <p style="Margin:0; padding: 0; -webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:'trebuchet ms', tahoma, sans-serif;font-weight: bold;font-size: 16px;line-height: 19px;">20&nbsp;июня, 17:00</p>
                                                                                                     </td>
                                                                                                 </tr>
                                                                                                 <tr>
@@ -573,7 +589,7 @@
                                                                                                 </tr>
                                                                                                 <tr>
                                                                                                     <td style="padding-bottom: 16px;">
-                                                                                                        <p style="Margin:0; padding: 0; -webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:'trebuchet ms', tahoma, sans-serif;font-weight: bold;font-size: 18px;line-height: 21px;">21&nbsp;июня, 17:00</p>
+                                                                                                        <p style="Margin:0; padding: 0; -webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:'trebuchet ms', tahoma, sans-serif;font-weight: bold;font-size: 16px;line-height: 29px;">21&nbsp;июня, 17:00</p>
                                                                                                     </td>
                                                                                                 </tr>
                                                                                                 <tr>
@@ -606,7 +622,7 @@
                                                                                                 </tr>
                                                                                                 <tr>
                                                                                                     <td style="padding-bottom: 16px;">
-                                                                                                        <p style="Margin:0; padding: 0; -webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:'trebuchet ms', tahoma, sans-serif;font-weight: bold;font-size: 18px;line-height: 21px;">22&nbsp;июня, 17:00</p>
+                                                                                                        <p style="Margin:0; padding: 0; -webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:'trebuchet ms', tahoma, sans-serif;font-weight: bold;font-size: 16px;line-height: 19px;">22&nbsp;июня, 17:00</p>
                                                                                                     </td>
                                                                                                 </tr>
                                                                                                 <tr>
@@ -651,7 +667,7 @@
                                                         <table bgcolor="#ffffff" class="content-body" align="center" cellpadding="0" cellspacing="0" style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-spacing:0px; ">
                                                             <tr>
                                                                 <td align="center" style="padding:0;Margin:0; padding-bottom: 16px;">
-                                                                    <img src="https://raw.githubusercontent.com/esukhalintsev/847405-play-html-1/module2-task2/2-welcome/img/img-party.png" alt="Процесс обучения" width="273" height="290" border="0" />
+                                                                    <img class="adaptive-img" src="https://raw.githubusercontent.com/esukhalintsev/847405-play-html-1/module2-task2/2-welcome/img/img-party.png" alt="Процесс обучения" width="273" height="290" border="0" />
                                                                 </td>
                                                             </tr>
                                                         </table>
@@ -665,7 +681,7 @@
                                                     <td>
                                                         <table bgcolor="#ffffff" class="content-body" align="center" cellpadding="0" cellspacing="0" style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-spacing:0px;background-color:#FFFFFF;">
                                                             <tr>
-                                                                <td align="left" style="padding:0;Margin:0;padding-bottom: 32px;">
+                                                                <td align="left" style="padding:0;Margin:0;">
                                                                     <!--Обертка для контактов и меню-->
                                                                     <table width="100%" cellspacing="0" cellpadding="0" border="0">
                                                                         <tr>
@@ -814,7 +830,7 @@
                                                                     </table>
                                                                     <table width="100%" cellspacing="0" cellpadding="0" border="0">
                                                                         <tr>
-                                                                            <td class="info" align="left" style="Margin:0;padding-top:37px;padding-bottom:32px;padding-left: 21px; padding-right: 16px;">
+                                                                            <td class="info" align="left" style="Margin:0;padding-top:37px;padding-left: 21px; padding-right: 16px;">
                                                                                 <table class="info__wrapper" align="center" cellpadding="0" cellspacing="0" style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-spacing:0px;">
                                                                                     <tr>
                                                                                         <td class="info__text" style="padding-top: 32px; padding-bottom: 16px;padding-left: 12px; padding-right: 12px;">
